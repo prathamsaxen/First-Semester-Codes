@@ -3,9 +3,9 @@
 void main()
 {
 start:
-    printf("Welcome to our program.");
+    printf("Fibonacci Series Printer:-\n");
     int term, prev = 1, sec_prev = 0;
-    printf("\nHow much terms of Fibbonacci Series you wanna print? ");
+    printf("How much terms of Fibbonacci Series you wanna print? ");
     scanf("%d", &term);
     printf("%d,%d", sec_prev, prev);
     for (int index = 0; index < term-2; index++)
@@ -19,7 +19,7 @@ start:
     printf("\nIf You Wanna Use This Program Again.Press 'Y': ");
     getchar();
     scanf("%c", &permit);
-    if (permit == 'Y' && permit == 'y')
+    if (permit == 'Y' || permit == 'y')
     {
         printf("Redirecting To Program \n");
         goto start;
