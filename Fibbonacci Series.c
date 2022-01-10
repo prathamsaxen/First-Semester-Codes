@@ -8,7 +8,7 @@ start:
     printf("\nHow much terms of Fibbonacci Series you wanna print? ");
     scanf("%d", &term);
     printf("%d,%d", sec_prev, prev);
-    for (int index = 0; index < term; index++)
+    for (int index = 0; index < term-2; index++)
     {
         int sum = prev + sec_prev;
         sec_prev = prev;
@@ -19,7 +19,7 @@ start:
     printf("\nIf You Wanna Use This Program Again.Press 'Y': ");
     getchar();
     scanf("%c", &permit);
-    if (permit = 'Y' && permit == 'y')
+    if (permit == 'Y' && permit == 'y')
     {
         printf("Redirecting To Program \n");
         goto start;
