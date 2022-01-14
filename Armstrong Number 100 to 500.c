@@ -28,7 +28,7 @@ void main()
     printf("If You Wanna Use This Program Again.Press 'Y': ");
     getchar();
     scanf("%c", &permit);
-    if (permit = 'Y' && permit == 'y')
+    if (permit == 'Y' || permit == 'y')
     {
         printf("Redirecting To Program \n");
         goto start;

@@ -34,7 +34,7 @@ start:
         }
     }
     for (int index = 0; index < n2; index++)
-    {
+    { 
         for (int index2 = index + 1; index2 < n2; index2++)
         {
 
@@ -105,7 +105,7 @@ start:
     printf("\nIf You Wanna Use This Program Again.Press 'Y': ");
     getchar();
     scanf("%c", &permit);
-    if (permit = 'Y' && permit == 'y')
+    if (permit == 'Y' || permit == 'y')
     {
         printf("Redirecting To Program \n");
         goto start;
