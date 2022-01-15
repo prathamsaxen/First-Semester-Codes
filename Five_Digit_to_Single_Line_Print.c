@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-    printf("Welcome To Our Program:-\n");
+    printf("Digits Form a Numbers:-\n");
     int a,b,c,d,e;
     printf("Enter 5 Digit Number Vetically:-\n");
     scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
