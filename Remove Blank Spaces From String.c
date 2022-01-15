@@ -4,7 +4,7 @@
 void main()
 {
 start:
-    printf("Welcome To Our Program");
+    printf("Remove Blank Space From String");
     char text[100], blank[100];
     int c = 0, d = 0;
 
