@@ -11,6 +11,6 @@ void main()
     printf("%d",c);
     printf("%d",d);
     printf("%d",e);
-    printf("\nDeveloped by Er Pratham Saxena");
+    printf("\nDeveloped by Madhvendra Singh");
     getch();
 }
