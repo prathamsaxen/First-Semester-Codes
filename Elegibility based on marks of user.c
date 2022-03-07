@@ -33,7 +33,7 @@ start:
     }
     else
     {
-        printf("Thanks for using our program.\nDeveloped by Er Pratham Saxena");
+        printf("Thanks for using our program.\nDeveloped by Madhvendra Singh");
     }
     getch();
     return 0;
