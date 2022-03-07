@@ -17,7 +17,7 @@ int factorial(int a)
 int main(int argc, char const *argv[])
 {
     printf("Factorial [%d]=%d",atoi(argv[1]),factorial(atoi(argv[1])));
-    printf("\nThanks for using our program.\nDeveloped by Er Pratham Saxena");
+    printf("\nThanks for using our program.\nDeveloped by Madhvendra Singh");
     getch();
     return 0;
 }
