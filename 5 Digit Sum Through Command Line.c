@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
         num = num / 10;
     }
     printf("Sum[%d]=%d", atoi(argv[1]), sum);
-    printf("\nThanks for using our program.\nDeveloped by Er Pratham Saxena");
+    printf("\nThanks for using our program.\nDeveloped by Madhvendra Singh");
     getch();
     return 0;
 }
