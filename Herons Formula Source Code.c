@@ -21,6 +21,5 @@ void main()
     printf("Enter Side 'C':");
     scanf("%f",&c);
     printf("Area=%f units",area_triangle(a,b,c));
-    printf("\nDeveloped by Madhvendra Singh");
     getch();
 }
