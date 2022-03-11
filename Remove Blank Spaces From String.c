@@ -22,7 +22,5 @@ start:
     }
     blank[d] = '\0';
     printf("Text after removing blanks\n%s\nNumber of Characters=%d\n", blank,strlen(blank));
-
-    printf("Thanks for using our program.\nDeveloped by Madhvendra Singh");
     getch();
 }
