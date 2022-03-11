@@ -13,6 +13,5 @@ void main()
     printf("Enter The Breadth Of Rectangle: ");
     scanf("%f",&breadth);
     printf("Area :- %f",react_area(length,breadth));
-    printf("\nDeveloped by Madhvendra Singh");
     getch();
     }
