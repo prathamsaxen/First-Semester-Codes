@@ -52,7 +52,7 @@ start:
     }
     else
     {
-        printf("Thanks for using our program.\nDeveloped by Madhvendra Singh");
+        printf("Thanks for using our program.");
     }
     getch();
 }
